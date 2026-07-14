@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fairgo — Privacy Policy</title>
+<meta name="description" content="Fairgo Privacy Policy.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <div class="brand"><a href="index.html" style="color:inherit"><span class="dot"></span> Fairgo</a></div>
+  <nav><a href="support.html">Support</a><a href="terms.html">Terms</a></nav>
+</div></header>
+
+<main class="legal"><div class="wrap">
+  <h1>Privacy Policy</h1>
+  <p class="muted">Last updated: <span id="d"></span>. Draft — pending legal review.</p>
+
+  <p>This policy explains what data Fairgo processes and why, across the Fairgo (rider) and Fairgo
+  Driver apps. We aim to collect the minimum needed to run a safe, working ride-hailing service, and
+  we self-host our backend for data sovereignty.</p>
+
+  <h2>Data we process</h2>
+  <ul>
+    <li><strong>Account</strong>: email (and phone if provided) to sign you in and contact you.</li>
+    <li><strong>Location</strong>: precise GPS while you use the app — riders for pickup and live
+      trip tracking; drivers for availability and matching. Background location is used only while
+      you are online as a driver.</li>
+    <li><strong>Ride data</strong>: pickup/dropoff, route, price, timestamps, ratings.</li>
+    <li><strong>Driver compliance</strong>: identity and licensing documents where required by local
+      law, used solely for verification.</li>
+    <li><strong>Payments</strong>: handled by the payment method you choose; Fairgo does not take
+      custody of ride fares and does not store full card numbers.</li>
+    <li><strong>Notifications</strong>: a device token to send ride updates (offers, arrival,
+      cancellations). You can disable notifications any time in iOS Settings.</li>
+  </ul>
+
+  <h2>How we use it</h2>
+  <p>To match riders and drivers, calculate fares, provide live tracking and safety features, meet
+  legal and tax obligations, prevent fraud, and improve reliability. We do not sell your personal
+  data.</p>
+
+  <h2>Sharing</h2>
+  <p>Between the matched rider and driver (limited profile, live location during a trip), with
+  authorities where legally required, and with processors that operate the service under contract
+  (e.g. the payment processor). Some markets legally require sharing certain data with local
+  transport authorities; we disclose this in-app where it applies.</p>
+
+  <h2>Your rights</h2>
+  <p>Subject to your region (e.g. GDPR / nLPD), you may access, correct, export or delete your data,
+  and object to certain processing. Contact us via the <a href="support.html">Support</a> page.</p>
+
+  <h2>Retention &amp; security</h2>
+  <p>We keep data only as long as needed for the service and legal obligations, then delete or
+  anonymize it. Access is restricted and data is protected in transit and at rest.</p>
+
+  <p><small>This document is a draft placeholder and does not constitute legal advice. The final
+  policy will reflect the exact data practices per market and be reviewed by counsel.</small></p>
+</div></main>
+
+<footer><div class="wrap">
+  <div>© <span id="y"></span> Fairgo</div>
+  <div><a href="index.html">Home</a><a href="terms.html">Terms</a><a href="support.html">Support</a></div>
+</div></footer>
+<script>const now=new Date();document.getElementById('y').textContent=now.getFullYear();document.getElementById('d').textContent=now.toISOString().slice(0,10);</script>
+</body>
+</html>
