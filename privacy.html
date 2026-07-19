@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fairgo — Privacy Policy</title>
-<meta name="description" content="Fairgo Privacy Policy.">
+<meta name="description" content="Fairgo Privacy Policy — what data the Fairgo and Fairgo Driver apps collect, why, who it is shared with, and your rights.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,54 +15,179 @@
 
 <main class="legal"><div class="wrap">
   <h1>Privacy Policy</h1>
-  <p class="muted">Last updated: <span id="d"></span>. Draft — pending legal review.</p>
+  <p class="muted">Last updated: 20 July 2026. Applies to the Fairgo (rider) and Fairgo Driver apps.</p>
 
-  <p>This policy explains what data Fairgo processes and why, across the Fairgo (rider) and Fairgo
-  Driver apps. We aim to collect the minimum needed to run a safe, working ride-hailing service, and
-  we self-host our backend for data sovereignty.</p>
+  <p>This policy explains exactly what personal data Fairgo processes, why, who else sees it, and what
+  control you have. We have written it to describe what the apps actually do, including the parts that
+  are inconvenient to admit. We collect the minimum needed to run a safe ride-hailing service, we run
+  our own backend rather than renting a cloud platform, and we use <strong>no advertising, analytics,
+  attribution or tracking SDKs of any kind</strong>.</p>
 
-  <h2>Data we process</h2>
+  <h2>1. Who is responsible</h2>
+  <p>Fairgo is operated by <strong>Hugo Moriceau</strong> (sole trader), Switzerland, who is the data
+  controller for the processing described here.</p>
+  <p>Contact for any privacy question or request: <strong>hugomoriceau@icloud.com</strong>, or via the
+  <a href="support.html">Support</a> page. A postal address is available on request to that address.</p>
+
+  <h2>2. What we collect</h2>
+  <h3>Everyone</h3>
   <ul>
-    <li><strong>Account</strong>: email (and phone if provided) to sign you in and contact you.</li>
-    <li><strong>Location</strong>: precise GPS while you use the app — riders for pickup and live
-      trip tracking; drivers for availability and matching. Background location is used only while
-      you are online as a driver.</li>
-    <li><strong>Ride data</strong>: pickup/dropoff, route, price, timestamps, ratings.</li>
-    <li><strong>Driver compliance</strong>: identity and licensing documents where required by local
-      law, used solely for verification.</li>
-    <li><strong>Payments</strong>: handled by the payment method you choose; Fairgo does not take
-      custody of ride fares and does not store full card numbers.</li>
-    <li><strong>Notifications</strong>: a device token to send ride updates (offers, arrival,
-      cancellations). You can disable notifications any time in iOS Settings.</li>
+    <li><strong>Account</strong> — email address, and your name and phone number if you provide them.
+      If you use Sign in with Apple, we receive the email address Apple gives us (which may be a
+      private relay address) and the name you choose to share.</li>
+    <li><strong>Precise location</strong> — GPS coordinates from your device. For riders, while you are
+      using the app to set a pickup point and follow a trip. For drivers, continuously
+      <em>while you are online</em>, including in the background, because matching requires knowing
+      where available drivers are.</li>
+    <li><strong>Trip records</strong> — pickup and drop-off coordinates and addresses, the route taken,
+      times, distance, price, tip, ratings and any cancellation.</li>
+    <li><strong>A second-by-second GPS trail of each trip</strong>, recorded while the trip is in
+      progress, so a trip can be reconstructed for safety, disputes and fare accuracy.</li>
+    <li><strong>Messages</strong> you send in the in-app chat, and reports or complaints you submit.</li>
+    <li><strong>Device notification token</strong>, so we can send you ride updates.</li>
+    <li><strong>Crash diagnostics</strong> — error messages and technical stack traces if the app fails.
+      These are stored on our own servers, not sent to any third-party crash service.</li>
+  </ul>
+  <h3>Riders</h3>
+  <ul>
+    <li><strong>Saved places</strong> — any Home, Work or other address you save, with its coordinates.</li>
+    <li><strong>Safety contact</strong> — if you add one, the name and phone number of another person.
+      Please only add someone who is happy for you to share their details. We never disclose your
+      safety contact to your driver.</li>
+    <li><strong>Accessibility</strong> — if you request a wheelchair-accessible vehicle, we record that
+      requirement on that trip in order to match you with a suitable driver. This may indicate
+      information about your health, and we process it only to fulfil your request.</li>
+    <li><strong>Profile photo and rating</strong>, if you add a photo.</li>
+  </ul>
+  <h3>Drivers</h3>
+  <ul>
+    <li><strong>Identity and licensing documents</strong> — driving licence, identity document,
+      insurance and any other document your local rules require, plus the details read from them
+      (name, document number, expiry date).</li>
+    <li><strong>Vehicle details</strong> — make, model, colour and registration plate.</li>
+    <li><strong>Payout and tax information</strong> — your Stripe account identifier, whether your
+      identity checks are complete, and tax data where the law requires us to collect it.</li>
+    <li><strong>Your last known location while online</strong>, refreshed regularly even when you are
+      stationary. Be aware this is often your home address; it is erased when you delete your account.</li>
+    <li><strong>Your published tariff, availability and rating.</strong></li>
   </ul>
 
-  <h2>How we use it</h2>
-  <p>To match riders and drivers, calculate fares, provide live tracking and safety features, meet
-  legal and tax obligations, prevent fraud, and improve reliability. We do not sell your personal
-  data.</p>
+  <h2>3. Why we process it, and on what legal basis</h2>
+  <ul>
+    <li><strong>To provide the service</strong> — matching, pricing, navigation, live tracking, chat,
+      receipts and support. <em>Basis: performance of our contract with you.</em></li>
+    <li><strong>Safety and security</strong> — trip traces, PIN verification, trip sharing, fraud and
+      abuse prevention, rate limiting. <em>Basis: our legitimate interest in a safe service, and the
+      vital interests of users in an emergency.</em></li>
+    <li><strong>Driver eligibility</strong> — verifying documents and licences before a driver may carry
+      passengers. <em>Basis: legal obligation and our legitimate interest in passenger safety.</em></li>
+    <li><strong>Payments, invoicing, tax and accounting</strong> — including our 1% technology fee.
+      <em>Basis: contract and legal obligation.</em></li>
+    <li><strong>Accessibility matching.</strong> <em>Basis: your explicit request.</em></li>
+    <li><strong>Marketing messages</strong>, only if you opt in. <em>Basis: consent, withdrawable at any
+      time.</em></li>
+  </ul>
+  <p>We do not sell personal data, we do not share it with data brokers, and we do not profile you for
+  advertising.</p>
 
-  <h2>Sharing</h2>
-  <p>Between the matched rider and driver (limited profile, live location during a trip), with
-  authorities where legally required, and with processors that operate the service under contract
-  (e.g. the payment processor). Some markets legally require sharing certain data with local
-  transport authorities; we disclose this in-app where it applies.</p>
+  <h2>4. Who else sees your data</h2>
+  <h3>The other person on your trip</h3>
+  <p>Riders see the driver's name, photo, vehicle, registration plate and rating. Drivers see the
+  rider's first name, photo and rating, and the pickup and drop-off points. <strong>While a trip is
+  live, each party can call the other on their real phone number</strong> — we do not currently mask
+  numbers. Driver and rider profile photos are served from public storage, which means the photo file
+  itself can be opened by anyone who has its exact link.</p>
 
-  <h2>Your rights</h2>
-  <p>Subject to your region (e.g. GDPR / nLPD), you may access, correct, export or delete your data,
-  and object to certain processing. Contact us via the <a href="support.html">Support</a> page.</p>
+  <h3>If you share your trip</h3>
+  <p>The rider app can generate a trip-sharing link. <strong>Anyone who holds that link can open it
+  without logging in</strong> and will see the pickup and drop-off addresses and coordinates, the
+  vehicle and its full registration plate, the driver's first name and the driver's live position.
+  The link stops returning any of this as soon as the trip ends. Only share it with people you trust.</p>
 
-  <h2>Retention &amp; security</h2>
-  <p>We keep data only as long as needed for the service and legal obligations, then delete or
-  anonymize it. Access is restricted and data is protected in transit and at rest.</p>
+  <h3>Service providers</h3>
+  <ul>
+    <li><strong>Stripe</strong> (payments). Fairgo never takes custody of your fare and never sees or
+      stores your full card number. The driver is the merchant and is paid directly; we collect only
+      our 1% fee. Drivers enter their identity and bank details directly into Stripe's own onboarding
+      pages, not into Fairgo.</li>
+    <li><strong>Mindee</strong> (document checking, France). <strong>When a driver uploads an identity
+      or licensing document, the document image itself is sent to Mindee</strong> to read the name,
+      number and expiry automatically. If automatic checking is unavailable, the document is instead
+      reviewed by a human reviewer at Fairgo.</li>
+    <li><strong>Apple</strong> (push notifications and Sign in with Apple). To deliver a notification,
+      your device token and the notification text are sent to Apple. <strong>For chat notifications
+      this includes the sender's first name and the first part of the message.</strong></li>
+    <li><strong>OpenStreetMap Foundation and the OSRM routing service</strong> (address search and
+      routing). <strong>When you type a destination, the text you type is sent to the address-search
+      service, and your pickup and drop-off coordinates are sent to the routing service, directly from
+      your device</strong> — which also reveals your device's IP address to them.</li>
+    <li><strong>CARTO</strong> (map images). Displaying the map requests map tiles for the area you are
+      looking at, which reveals your approximate position and IP address to that provider.</li>
+  </ul>
 
-  <p><small>This document is a draft placeholder and does not constitute legal advice. The final
-  policy will reflect the exact data practices per market and be reviewed by counsel.</small></p>
+  <h3>Authorities</h3>
+  <p>We disclose data where we are legally required to, or where it is necessary to protect someone's
+  life or safety. Some markets require ride-hailing operators to give local transport authorities
+  access to operating data as a condition of the licence; where that applies to your market, we will
+  say so in the app before you use the service there.</p>
+
+  <h2>5. Where your data is stored, and transfers</h2>
+  <p>Our database and files are held on servers we operate at a hosting provider in
+  <strong>Munich, Germany</strong> (Contabo GmbH), inside the European Union. We do not use a
+  third-party cloud platform for your ride data.</p>
+  <p>Some of the providers in section 4 are located outside your country — in particular Stripe and
+  Apple (Ireland and the United States), Mindee (France), and the map and routing services. Where a
+  transfer leaves the EU or Switzerland, it relies on the European Commission's standard contractual
+  clauses or an adequacy decision.</p>
+
+  <h2>6. How long we keep it, and what deleting your account really does</h2>
+  <p>You can delete your account at any time from <em>Account &rarr; Delete account</em> in either app.
+  We want to be precise about what that does, because "delete" is often overstated.</p>
+  <p><strong>Erased:</strong> your profile name, phone number, profile photo, safety contact, saved
+  addresses, driver identity documents and the details read from them, your last known location,
+  vehicle details, payout and tax identifiers, notification tokens, your credits, the reports you
+  filed, your crash diagnostics, and the chat messages you sent. Your login is permanently disabled
+  and your email address is removed.</p>
+  <p><strong>Retained:</strong> the trip records themselves — including pickup and drop-off addresses
+  and coordinates, the recorded route trail, fares and invoices — are kept, no longer carrying your
+  name, because we are required to keep financial and transport records. Messages the other person
+  sent you remain visible to them in their own copy of the conversation.</p>
+  <p>We keep those records for as long as tax, accounting and transport law requires in the market
+  concerned, and then delete them. If you want to know the exact period that applies to you, ask us.</p>
+
+  <h2>7. Your rights</h2>
+  <p>Under the EU GDPR and the Swiss Federal Act on Data Protection you can ask us to give you a copy
+  of your data, correct it, delete it, restrict or object to how we use it, and receive it in a
+  portable form. Where we rely on your consent, you can withdraw it at any time. We answer requests
+  within one month.</p>
+  <p>Write to <strong>hugomoriceau@icloud.com</strong>. If you are not satisfied, you can complain to
+  your national data protection authority, or to the Swiss Federal Data Protection and Information
+  Commissioner (FDPIC).</p>
+
+  <h2>8. Security</h2>
+  <p>Data is encrypted in transit. Driver identity documents are held in private storage that is not
+  publicly readable and is accessible only to the verification process. Access to the database is
+  restricted, every table enforces row-level access rules so one user cannot read another's records,
+  and sensitive fields such as account status and ratings can only be changed by our servers, never by
+  an app. No system is perfectly secure, and we will notify you and the relevant authority of a breach
+  where the law requires it.</p>
+
+  <h2>9. Children</h2>
+  <p>Fairgo is not intended for children. You must be old enough to enter into a contract in your
+  country to use the rider app, and to hold the required licence to use the driver app.</p>
+
+  <h2>10. Changes</h2>
+  <p>If we change how we use your data we will update this page and change the date at the top, and
+  tell you in the app where the change is significant.</p>
+
+  <p class="muted"><small>This document describes our data practices. It is not legal advice, and it
+  does not replace the advice of a qualified lawyer in your jurisdiction.</small></p>
 </div></main>
 
 <footer><div class="wrap">
   <div>© <span id="y"></span> Fairgo</div>
   <div><a href="index.html">Home</a><a href="terms.html">Terms</a><a href="support.html">Support</a></div>
 </div></footer>
-<script>const now=new Date();document.getElementById('y').textContent=now.getFullYear();document.getElementById('d').textContent=now.toISOString().slice(0,10);</script>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
 </body>
 </html>
